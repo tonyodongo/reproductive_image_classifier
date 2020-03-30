@@ -55,5 +55,5 @@ def classify_image():
     return render_template("upload.html", image_path = 'landing_page_pic.jpg')
 
 if __name__ == '__main__':
-    model = load_model('./reproductive_xception_850_cont4_lr_93.207%.hdf5')
+    model = load_model('/Users/tonyodongo/Desktop/reproductive_xception_850_cont4_lr_93.207%.hdf5')
     app.run(host='0.0.0.0', debug=False, threaded=False, port=8000)
